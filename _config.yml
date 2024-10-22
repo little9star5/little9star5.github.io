@@ -100,7 +100,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -110,3 +110,18 @@ deploy:
   branch: deploy
   name: little9star5
   email: 3417164942@qq.com
+
+# Search
+## See: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+# Feed Atom
+# npm install hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
