@@ -105,4 +105,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:little9star5/little9star5.github.io.git
+  branch: deploy
+  name: little9star5
+  email: 3417164942@qq.com
